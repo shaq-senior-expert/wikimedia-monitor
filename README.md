@@ -1,3 +1,8 @@
+# Wikimedia Monitor
+
+![image](https://github.com/user-attachments/assets/5bcf975e-9ad4-4d5c-b766-1a24ec0a6c15)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
