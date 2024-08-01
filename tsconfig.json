@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "downlevelIteration": true,
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "allowJs": true,
+    "jsx": "preserve",
+    "forceConsistentCasingInFileNames": true,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "types": [
+    "node",
+    "jest"
+  ],
+  "strict": false,
+  "noEmit": true,
+  "incremental": true,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "plugins": [
+    {
+      "name": "next"
+    }
+  ],
+  "include": [
+    "src/**/*",
+    "__tests__/**/*",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

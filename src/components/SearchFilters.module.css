@@ -1,0 +1,44 @@
+.searchFilters {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputField {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    flex: 1;
+}
+
+.inputField:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .searchFilters {
+        background-color: #222;
+        color: #eee;
+        border: 2px solid #444;
+    }
+
+    .inputField {
+        background-color: #333;
+        color: #eee;
+        border: 2px solid #555;
+    }
+
+    .inputField:focus {
+        border-color: #1e90ff;
+    }
+}
